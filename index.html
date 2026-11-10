@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Lista de Tarefas</h1>
+    <p class="sub">Projeto fictício para praticar GitHub</p>
+
+    <form id="form">
+      <input id="texto" type="text" placeholder="Nova tarefa..." autocomplete="off" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <div class="filtros">
+      <button data-filtro="todas" class="ativo">Todas</button>
+      <button data-filtro="pendentes">Pendentes</button>
+      <button data-filtro="feitas">Feitas</button>
+    </div>
+
+    <ul id="lista"></ul>
+    <p id="contador" class="sub"></p>
+  </main>
+
+  <script src="logic.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
