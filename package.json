@@ -1,0 +1,9 @@
+{
+  "name": "lista-de-tarefas",
+  "version": "1.0.0",
+  "description": "Projeto fictício de lista de tarefas para praticar GitHub (Actions, Pages, PR, Issues, Releases).",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
